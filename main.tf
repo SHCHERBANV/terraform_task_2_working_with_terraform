@@ -24,3 +24,4 @@ resource "azurerm_storage_blob" "example" {
   type                   = "Block"
   source                 = "${path.module}/archive.zip"
 }
+
